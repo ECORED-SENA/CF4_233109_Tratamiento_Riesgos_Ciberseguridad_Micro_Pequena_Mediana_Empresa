@@ -72,7 +72,7 @@
       h5 Figura 6.
       span Características y funcionalidades de los UTM/XTM
     figure.mt-4
-      img(src="@/assets/curso/tema4/9.svg" data-aos="zoom-in-up")
+      img(src="@/assets/curso/tema4/9.svg" data-aos="zoom-in-up" alt="La imagen presenta las características y funcionalidades de los UTM/XTM.")
       figcaption(style="font-weight:400;background-color:#F6F6F6;") #[strong Nota.] Adaptado de http://fibraoptica.blog.tartanga.eus/files/2018/01/Equipos-UTM-2-2.jpg
 
 

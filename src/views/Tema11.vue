@@ -186,14 +186,6 @@
             img(src="@/assets/curso/tema11/16.svg" data-aos="zoom-in-up" style="max-width:80px;")
           p.mt-4(data-aos="fade-up") #[strong Campañas de socialización] #[br] Las campañas de socialización que se puedan desplegar a través de fondos de escritorios, volantes, correos, mensajería instantánea, donde se den #[em tips] y recomendaciones para la gestión de la seguridad.
 
-    .titulo-sexto.color-acento-contenido.mt-5
-      h5 Figura 20.
-      span Planes de formación y capacitación sobre gestión de la ciberseguridad en las organizaciones
-    figure.mt-4
-      img.d-none.d-lg-block(src="@/assets/curso/tema11/17.svg" data-aos="zoom-in-up")
-      img.d-block.d-lg-none(src="@/assets/curso/tema11/17.svg" data-aos="zoom-in-up")
-      figcaption(style="font-weight:400;background-color:#F6F6F6;") #[strong Nota.] Tomado de https://www.alert-software.com/hs-fs/hubfscyber%20security%20campaign.png
-
     p.mt-5(data-aos="fade-up") #[strong Estas acciones se pueden articular de acuerdo con las características de cada una de las organizaciones y de los activos que administre, permitiendo fortalecer en sus empleados esas capacidades de identificar, enfrentar y evitar que se consoliden incidentes que afecten la seguridad de la información.]
 
 

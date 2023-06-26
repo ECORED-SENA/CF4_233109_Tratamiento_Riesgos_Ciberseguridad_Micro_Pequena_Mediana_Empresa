@@ -113,9 +113,9 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h4.mb-1.text-white(data-aos="fade-up") Guía para configurar dispositivos móviles
-              p.mb-0.text-white(data-aos="fade-up") De acuerdo con el Control 6.2.1 de la Norma ISO 27001 Anexo A, se deben establecer políticas que establezcan las medidas para la seguridad de la información gestionada a través de dispositivos móviles y adoptar los controles necesarios para su administración, por ejemplo, aplicar controles como los sugeridos por la Oficina de Seguridad del Internauta OSI, en su publicación titulada “Guía para configurar dispositivos móviles”, en la cual brinda algunas recomendaciones básicas para contar con un nivel básico de seguridad en los dispositivos. Ingresando al siguiente enlace, podrá conocer todo al respecto:
+              p.mb-0.text-white(data-aos="fade-up") La Oficina de Seguridad del Internauta OSI, brinda algunas recomendaciones básicas para contar con un nivel básico de seguridad en los dispositivos. Ingresando al siguiente enlace, podrá conocer todo al respecto.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.osi.es/es/guia-para-configurar-dispositivos-moviles" target="_blank" data-aos="fade-left")
+              a.boton.color-acento-botones(href="https://www.incibe.es/ciudadania/blog/nuevas-guias-configura-tus-dispositivos-android-e-ios-para-que-esten" target="_blank" data-aos="fade-left")
                 span Ir a enlace
 
     Separador.mt-5
@@ -152,10 +152,10 @@
 
     .titulo-sexto.color-acento-contenido.mt-5
       h5 Figura 13.
-      span Guía para NIST-SP800-114)
+      span Guía para NIST-SP800-114
     figure.mt-4
-      img.d-none.d-lg-block(src="@/assets/curso/tema7/16.svg" data-aos="zoom-in-up")
-      img.d-block.d-lg-none(src="@/assets/curso/tema7/17.svg" data-aos="zoom-in-up")
+      img.d-none.d-lg-block(src="@/assets/curso/tema7/16.svg" data-aos="zoom-in-up" alt="La imagen presenta las 5 secciones correspondientes a la Guía para NIST-SP800-114 – Aseguramiento Filosofía BYOD.")
+      img.d-block.d-lg-none(src="@/assets/curso/tema7/17.svg" data-aos="zoom-in-up" alt="La imagen presenta las 5 secciones correspondientes a la Guía para NIST-SP800-114 – Aseguramiento Filosofía BYOD.")
 
 
     p.mt-5(data-aos="fade-up") #[strong Si la organización tiene implementada la modalidad de teletrabajo, se recomienda tener presente esta guía.]
@@ -167,10 +167,10 @@
       .col(style="place-self:center;")
         h3.text-white.mb-0(data-aos="fade-up") Seguridad en el teletrabajo
 
-    .row
+    .row.justify-content-center
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center")
         p(data-aos="fade-up") Las organizaciones actualmente vienen habilitando las capacidades para poder desarrollar sus actividades sin que necesariamente sus empleados se encuentren en la sede física y, aprovechando la reglamentación y cumplimiento tanto legal como laboral, estas deben garantizar que los empleados cuenten con los recursos necesarios para el desarrollo de sus actividades; entre estos, se encuentran las condiciones de seguridad, por ello, se sugiere considerar las siguientes recomendaciones adicionales para el desarrollo de actividades bajo la modalidad de teletrabajo:
-      .col-lg-4(style="place-self:center")
+      .col-lg-4.col-8(style="place-self:center")
         figure
           img(src="@/assets/curso/tema7/18.png" data-aos="fade-left")
 
@@ -182,22 +182,22 @@
         ul.fa-ul
           li.mb-2(data-aos="fade-up")
             i.fa-li.fas.fa-check-circle(style="color:#40327B;")
-            | Uso de equipos adecuados.
+            span Uso de equipos adecuados.
           li.mb-2(data-aos="fade-up")
             i.fa-li.fas.fa-check-circle(style="color:#40327B;")
-            | Garantizar el acceso a la información, de acuerdo con las condiciones y controles de seguridad anteriormente nombrados.
+            span Garantizar el acceso a la información, de acuerdo con las condiciones y controles de seguridad anteriormente nombrados.
           li.mb-2(data-aos="fade-up")
             i.fa-li.fas.fa-check-circle(style="color:#40327B;")
-            | Contar con mecanismos de conexión segura, evitando hacer uso de canales abiertos y públicos.
+            span Contar con mecanismos de conexión segura, evitando hacer uso de canales abiertos y públicos.
           li.mb-2(data-aos="fade-up")
             i.fa-li.fas.fa-check-circle(style="color:#40327B;")
-            | Proveer de herramientas contra #[em malware] actualizadas.
+            span Proveer de herramientas contra #[em malware] actualizadas.
           li.mb-2(data-aos="fade-up")
             i.fa-li.fas.fa-check-circle(style="color:#40327B;")
-            | Mantener un monitoreo permanente del tráfico de la red donde se encuentran los activos de información.
+            span Mantener un monitoreo permanente del tráfico de la red donde se encuentran los activos de información.
           li.mb-2(data-aos="fade-up")
             i.fa-li.fas.fa-check-circle(style="color:#40327B;")
-            | Contar con políticas de seguridad implementadas e informadas a todo el personal.
+            span Contar con políticas de seguridad implementadas e informadas a todo el personal.
 
 
 

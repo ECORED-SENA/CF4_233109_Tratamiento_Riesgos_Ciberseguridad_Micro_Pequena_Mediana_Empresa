@@ -37,25 +37,22 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
+        icono: 'fas fa-info-circle',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Gestión de acceso',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Tipos',
             hash: 't_1_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Características',
             hash: 't_1_2',
@@ -64,19 +61,16 @@ export default {
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: '<em>Firewall</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '2.1',
             titulo: 'Funcionalidades',
             hash: 't_2_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.2',
             titulo: 'Tipos',
             hash: 't_2_2',
@@ -85,19 +79,16 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'IDS/IPS, Sistemas de detección y prevención de intrusos',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '3.1',
             titulo: 'Definiciones',
             hash: 't_3_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.2',
             titulo: 'Características',
             hash: 't_3_2',
@@ -106,19 +97,16 @@ export default {
       },
       {
         nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
         numero: '4',
         titulo: 'UTM/XTM',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '4.1',
             titulo: 'Tipos',
             hash: 't_4_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '4.2',
             titulo: 'Características',
             hash: 't_4_2',
@@ -127,25 +115,21 @@ export default {
       },
       {
         nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
         numero: '5',
         titulo: '<em>Antimalware</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '5.1',
             titulo: 'Tipos',
             hash: 't_5_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '5.2',
             titulo: 'Características',
             hash: 't_5_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '5.3',
             titulo: 'Detección y respuesta para endpoints (EDR)',
             hash: 't_5_3',
@@ -154,25 +138,21 @@ export default {
       },
       {
         nombreRuta: 'tema6',
-        icono: 'far fa-file-alt',
         numero: '6',
         titulo: 'Cifrado',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '6.1',
             titulo: 'Tipos',
             hash: 't_6_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '6.2',
             titulo: 'Comunicaciones cifradas',
             hash: 't_6_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '6.3',
             titulo: 'Fuga de información',
             hash: 't_6_3',
@@ -181,25 +161,21 @@ export default {
       },
       {
         nombreRuta: 'tema7',
-        icono: 'far fa-file-alt',
         numero: '7',
         titulo: 'Dispositivos móviles',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '7.1',
             titulo: 'Tipos',
             hash: 't_7_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '7.2',
             titulo: 'Características',
             hash: 't_7_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '7.3',
             titulo:
               '<em>Telework and Bring Your Own Device (BYOD) Security (NIST-SP800-114)</em>',
@@ -209,19 +185,16 @@ export default {
       },
       {
         nombreRuta: 'tema8',
-        icono: 'far fa-file-alt',
         numero: '8',
         titulo: 'Infraestructuras críticas',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '8.1',
             titulo: 'Características',
             hash: 't_8_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '8.2',
             titulo:
               'Marco para mejorar la ciberseguridad de la infraestructura crítica',
@@ -231,25 +204,21 @@ export default {
       },
       {
         nombreRuta: 'tema9',
-        icono: 'far fa-file-alt',
         numero: '9',
         titulo: 'Sistemas de correlacionamiento de <em>logs</em> y monitoreo',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '9.1',
             titulo: 'Conceptos',
             hash: 't_9_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '9.2',
             titulo: 'Tipos',
             hash: 't_9_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '9.3',
             titulo: 'Características',
             hash: 't_9_3',
@@ -258,19 +227,16 @@ export default {
       },
       {
         nombreRuta: 'tema10',
-        icono: 'far fa-file-alt',
         numero: '10',
         titulo: 'Parcheado y/o actualización',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '10.1',
             titulo: 'Tipos',
             hash: 't_10_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '10.2',
             titulo: 'Características',
             hash: 't_10_2',
@@ -279,19 +245,16 @@ export default {
       },
       {
         nombreRuta: 'tema11',
-        icono: 'far fa-file-alt',
         numero: '11',
         titulo: 'Plan de capacitación y concienciación',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '11.1',
             titulo: 'Ruta de actualización',
             hash: 't_11_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '11.2',
             titulo: 'Estrategia de transferencia del conocimiento',
             hash: 't_11_2',
@@ -537,12 +500,12 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del ecosistema',
+          cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes ',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Responsable de Línea de Producción',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -586,7 +549,7 @@ export default {
         },
         {
           nombre: 'Juan Daniel Polanco Muñoz',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -598,25 +561,7 @@ export default {
         },
         {
           nombre: 'Carlos Eduardo Garavito Parada ',
-          cargo: 'Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Lady Adriana Ariza Luque ',
-          cargo: 'Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Laura Gisselle Murcia Pardo',
-          cargo: 'Validación audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Lina Marcela Pérez Manchego ',
-          cargo: 'Validación ilustración',
+          cargo: 'Animador y Productor Multimedia',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -628,7 +573,7 @@ export default {
         },
         {
           nombre: 'Emilsen Alfonso Bautista',
-          cargo: 'Actividad didáctica',
+          cargo: 'Actividad Didáctica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -639,19 +584,19 @@ export default {
       autores: [
         {
           nombre: 'Zuleidy María Ruíz Torres',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validador de Recursos Educativos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validador de Recursos Educativos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Daniel Ricardo Mutis',
-          cargo: 'Validación de contenidos accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },

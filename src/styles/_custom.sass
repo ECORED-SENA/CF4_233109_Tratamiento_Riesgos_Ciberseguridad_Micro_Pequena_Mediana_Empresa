@@ -31,3 +31,32 @@
 .img_t_6_1
   position: absolute
   top: -60px
+
+.btn-h3
+  position: relative
+  display: inline-block
+  background: #40327B
+  border-start-end-radius: 50px 50px
+  border-end-end-radius: 50px 50px
+  padding: 8px 45px 8px 50px
+  span
+    color: #fff
+  &::before
+    content: ""
+    position: absolute
+    background: url(../assets/curso/bg/bg-btn-h3.svg)
+    width: 40px
+    height: 38px
+    bottom: 0px
+    left: 0px
+
+.banner-principal
+  .container.tarjeta
+    @media screen and (max-width: $bp-max-xs)
+      background-image: none !important
+      background: #583AE2
+
+
+figcaption
+  span
+    font-weight: 400

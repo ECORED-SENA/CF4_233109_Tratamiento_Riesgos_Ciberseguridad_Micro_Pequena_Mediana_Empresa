@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p(data-aos="fade-up") Revise el siguiente esquema que a manera de síntesis articula los elementos principales abordados en el desarrollo del componente formativo.  
+    p(data-aos="fade-up") Como pudo darse cuenta con la presentación de las propuestas de controles que se pueden adoptar en una organización, es también importante tener presente que su análisis y viabilidad deben ser evaluados de acuerdo con sus características propias para determinar cuáles controles se consideran adecuados y cuáles deberían de obviarse para la gestión de la ciberseguridad. A continuación, se representa de forma visual lo visto en el componente:
 
     .row.justify-content-center.mt-5
       .col-lg-10.mb-5

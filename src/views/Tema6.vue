@@ -14,7 +14,7 @@
         figure
           img(src="@/assets/curso/tema6/1.png" data-aos="fade-right" style="max-width:350px;")
       .col-lg-5.mb-4.mb-lg-0.ps-0(style="place-self:center")
-        .py-4
+        .py-4.px-4.px-lg-0
           p.mt-2(data-aos="fade-up") De acuerdo con WeLiveSecurity:
           p(data-aos="fade-up") #[strong El cifrado es “el proceso mediante el cual se codifica algo de modo que no resulte fácil de entender para quienes no tienen acceso autorizado”] (WeLiveSecurity, 2021). También es necesario conocer sobre los procesos de criptografía.
       .col-lg-1(style="place-self:end;")
@@ -95,8 +95,8 @@
       h5 Figura 8.
       span Tipos de cifrado
     figure.mt-4
-      img.d-none.d-lg-block(src="@/assets/curso/tema6/6.svg" data-aos="zoom-in-up")
-      img.d-block.d-lg-none(src="@/assets/curso/tema6/7.svg" data-aos="zoom-in-up")
+      img.d-none.d-lg-block(src="@/assets/curso/tema6/6.svg" data-aos="zoom-in-up" alt="La imagen presenta el proceso para cifrar mensajes, a partir de los diferentes tipos de cifrado: simétrico y asimétrico.")
+      img.d-block.d-lg-none(src="@/assets/curso/tema6/7.svg" data-aos="zoom-in-up" alt="La imagen presenta el proceso para cifrar mensajes, a partir de los diferentes tipos de cifrado: simétrico y asimétrico.")
       figcaption(style="font-weight:400;background-color:#F6F6F6;") #[strong Nota.] Adaptado de OSI (2019).
 
     Separador.mt-5
@@ -105,10 +105,10 @@
       h2#t_6_2 6.2 Comunicaciones cifradas
 
     .row.cont_6_3(style="position:relative;")
-      .col-lg-10.col-md-8.mb-4.mb-md-0
+      .col-lg-10.col-md-12.mb-4.mb-md-0
         p.mb-0(data-aos="fade-up") Los controles de cifrado deben ser integrados en cualquier estrategia de seguridad como mecanismos vitales para salvaguardar la información confidencial y garantizar los pilares de la seguridad de la información.
         p.mt-4(data-aos="fade-up") #[strong A continuación, se van a identificar algunas aplicaciones específicas en servicios de red:]
-      .col-lg-2.col-md-4(style="place-self:center")
+      .col-lg-2.col-md-4(style="place-self:center").d-none.d-lg-block
         figure.d-flex.justify-content-center
           img(src="@/assets/curso/tema6/8.svg" data-aos="fade-left" style="max-width:100px;")
 
@@ -123,8 +123,9 @@
             h5 Figura 9.
             span Tráfico HTTP vs. HTTPS
           figure.mt-4
-            img(src="@/assets/curso/tema6/23.png")
+            img(src="@/assets/curso/tema6/23.svg" alt="La imagen presenta una comparación entre el tráfico HTTP y el HTTPS.")
             figcaption(style="font-weight:400;background-color:#F6F6F6;") #[strong Nota.] Basado en B, G (2002).
+
       .py-4.py-md-5(titulo="FTPS" :icono="require('@/assets/curso/tema6/22.svg')")
         .row.p-4
           h4 FTPS
@@ -135,8 +136,9 @@
             h5 Figura 10.
             span Diferencias entre FTPS Y SFTP
           figure.mt-4
-            img(src="@/assets/curso/tema6/24.png")
+            img(src="@/assets/curso/tema6/24.svg" alt="La imagen presenta las diferencias en operación de los protocolos FTPS y el SFTP.")
             figcaption(style="font-weight:400;background-color:#F6F6F6;") #[strong Nota.] Basado en MSP (s. f.).
+
       .py-4.py-md-5(titulo="SSH" :icono="require('@/assets/curso/tema6/22.svg')")
         .row.p-4
           h4 SSH
@@ -146,7 +148,7 @@
             h5 Figura 11.
             span Funcionamiento de conexión SSH
           figure.mt-4
-            img(src="@/assets/curso/tema6/25.png")
+            img(src="@/assets/curso/tema6/25.png" alt="La imagen presenta cómo se realiza el funcionamiento de conexión SSH desde el host del cliente hasta un host de servicio.")
             figcaption(style="font-weight:400;background-color:#F6F6F6;") #[strong Nota.] Basado en Chasco (2015).
       .py-4.py-md-5(titulo="LDAPS" :icono="require('@/assets/curso/tema6/22.svg')")
         .row.p-4
@@ -159,7 +161,7 @@
             h5 Figura 12.
             span Implementación de protocolo LDAPS
           figure.mt-4
-            img(src="@/assets/curso/tema6/26.png")
+            img(src="@/assets/curso/tema6/26.png" alt="La imagen presenta cómo se realiza la implementación de un protocolo LDAPS.")
             figcaption(style="font-weight:400;background-color:#F6F6F6;") #[strong Nota.] Basado en Kuenzler (2014)
 
 
@@ -168,11 +170,11 @@
     .titulo-segundo
       h2#t_6_3 6.3 Fuga de información
 
-    .row
+    .row.justify-content-center
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center")
         p(data-aos="fade-up") La pérdida de información en una organización puede presentarse por varios factores y se puede buscar reducir mediante la adopción de controles que reduzcan este tipo de riesgos.
         p.mt-4(data-aos="fade-up") De acuerdo con AUDEA, se denomina fuga de información #[strong “al incidente (tanto interno como externo, y a la vez intencional o no) que pone en poder de una persona ajena a la organización información confidencial y que solo debería estar disponible para integrantes de la misma”] (AUDEA, 2020). La norma ISO 27001, en su Anexo A, establece controles que buscan mejorar las prácticas con el manejo de los activos de información.
-      .col-lg-4(style="place-self:center")
+      .col-lg-4.col-8(style="place-self:center")
         figure
           img(src="@/assets/curso/tema6/17.png" data-aos="fade-left")
 

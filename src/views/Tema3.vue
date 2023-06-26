@@ -62,8 +62,8 @@
       h5 Figura 3.
       span Esquema de implementación de un IDS
     figure.mt-4
-      img.d-none.d-lg-block(src="@/assets/curso/tema3/4.svg" data-aos="zoom-in-up")
-      img.d-block.d-lg-none(src="@/assets/curso/tema3/5.svg" data-aos="zoom-in-up")
+      img.d-none.d-lg-block(src="@/assets/curso/tema3/4.svg" data-aos="zoom-in-up" alt="La imagen presenta un esquema de implementación de un IDS, comenzando del computador del usuario, pasando por el router, el firewall, el switch, donde va a los activos de información, o pasa al IDS para generar una alerta.")
+      img.d-block.d-lg-none(src="@/assets/curso/tema3/5.svg" data-aos="zoom-in-up" alt="La imagen presenta un esquema de implementación de un IDS, comenzando del computador del usuario, pasando por el router, el firewall, el switch, donde va a los activos de información, o pasa al IDS para generar una alerta.")
 
     p.mt-5(data-aos="fade-up") #[strong De acuerdo con su funcionalidad, es posible encontrar dos tipos de IDS:]
 
@@ -73,8 +73,8 @@
     .row.mt-4
       .col-lg-6.mb-4.mb-lg-0
         figure
-          img.d-none.d-lg-block(src="@/assets/curso/tema3/6.svg" data-aos="zoom-in-up")
-          img.d-block.d-lg-none(src="@/assets/curso/tema3/7.svg" data-aos="zoom-in-up")
+          img.d-none.d-lg-block(src="@/assets/curso/tema3/6.svg" data-aos="zoom-in-up" alt="La imagen presenta las diferencias entre un NIDS y un HIDS.")
+          img.d-block.d-lg-none(src="@/assets/curso/tema3/7.svg" data-aos="zoom-in-up" alt="La imagen presenta las diferencias entre un NIDS y un HIDS.")
           figcaption(style="font-weight:400;background-color:#F6F6F6;") #[strong Nota.] Adaptado de Comparitech.com
       .col-lg-6
         .p-4.h-100.d-flex.align-items-center(style="background-color:#D5CEF8;")
@@ -110,40 +110,41 @@
           .col(style="place-self:center")
             p.mb-0(data-aos="fade-up") #[strong IDS basado en anomalías:] este tipo de IDS busca patrones de acuerdo con las actividades identificadas en el tráfico de paquetes. Para el caso de los HIDS, este analiza los eventos como los inicios de sesión no exitosos y reiterativos; para el caso de los NIDS, realiza comparaciones a partir de un comportamiento base.
 
-    br
+
     .row.mt-5.col-xl-10.m-auto.cont_3_2(style="position:relative;")
       .col-xl-2.col-lg-3.mb-lg-0.mb-4(style="place-self:end")
         figure
           img(src="@/assets/curso/tema3/10.svg" data-aos="fade-right" style="max-width:90px")
       .col-xl-6.col-lg-5.mb-lg-0.mb-4(style="place-self:center")
-        p(data-aos="fade-up") #[strong Entre los IDS más conocidos, están]
-        ul.fa-ul
-          li.mb-1(data-aos="fade-up")
-            i.fas.fa-check-circle.fa-li(style="color:#40327B;")
-            | Zeek: #[a(href="https://zeek.org/", target="_blank") #[u https://zeek.org/]]
-          li.mb-1(data-aos="fade-up")
-            i.fas.fa-check-circle.fa-li(style="color:#40327B;")
-            | OSSEC: #[a(href="https://www.ossec.net/", target="_blank") #[u https://www.ossec.net/]]
-          li.mb-1(data-aos="fade-up")
-            i.fas.fa-check-circle.fa-li(style="color:#40327B;")
-            | Snort: #[a(href="https://www.snort.org/", target="_blank") #[u https://www.snort.org/]]
-          li.mb-1(data-aos="fade-up")
-            i.fas.fa-check-circle.fa-li(style="color:#40327B;")
-            | Suricata: #[a(href="https://suricata.io/", target="_blank") #[u https://suricata.io/]]
-          li.mb-1(data-aos="fade-up")
-            i.fas.fa-check-circle.fa-li(style="color:#40327B;")
-            | Security Onion: #[a(href="https://securityonionsolutions.com/", target="_blank") #[u https://securityonionsolutions.com/]]
+        .py-3
+          p(data-aos="fade-up") #[strong Entre los IDS más conocidos, están]
+          ul.lista-ul
+            li.mb-1(data-aos="fade-up")
+              i.fas.fa-check-circle(style="color:#40327B;")
+              span Zeek: #[a(href="https://zeek.org/", target="_blank") #[u https://zeek.org/]]
+            li.mb-1(data-aos="fade-up")
+              i.fas.fa-check-circle(style="color:#40327B;")
+              span OSSEC: #[a(href="https://www.ossec.net/", target="_blank") #[u https://www.ossec.net/]]
+            li.mb-1(data-aos="fade-up")
+              i.fas.fa-check-circle(style="color:#40327B;")
+              span Snort: #[a(href="https://www.snort.org/", target="_blank") #[u https://www.snort.org/]]
+            li.mb-1(data-aos="fade-up")
+              i.fas.fa-check-circle(style="color:#40327B;")
+              span Suricata: #[a(href="https://suricata.io/", target="_blank") #[u https://suricata.io/]]
+            li.mb-1(data-aos="fade-up")
+              i.fas.fa-check-circle(style="color:#40327B;")
+              span Security Onion: #[a(href="https://securityonionsolutions.com/", target="_blank") #[u https://securityonionsolutions.com/]]
 
       .col-xl-4.col-lg-4
         figure.col-8.m-auto.col-md-12
           img(src="@/assets/curso/tema3/11.svg" data-aos="fade-left" style="position:relative;bottom:-16px;")
 
-    .row.mt-5.p-4(style="background-color:#D5CEF8;")
-      .col-lg-4.col-md-6.mb-md-0.mb-4(style="place-self:center;")
+    .row.justify-content-center.mt-5.p-4(style="background-color:#D5CEF8;")
+      .col-lg-4.col-md-6.col-8.mb-md-0.mb-4(style="place-self:center;")
         figure.d-flex.justify-content-center
           img(src="@/assets/curso/tema3/12.svg" data-aos="fade-right")
       .col-lg-8.col-md-6(style="place-self:center;")
-        p(data-aos="fade-up") #[strong IPS (#[em (Intrusion Prevention System)])]
+        p(data-aos="fade-up") #[strong IPS #[em (Intrusion Prevention System)]]
         ul.lista-ul.mt-4
           li(data-aos="fade-up")
             i.fas.fa-check-circle(style="color:#40327B;")
@@ -162,8 +163,8 @@
       h5 Figura 5.
       span Esquema de implementación de un IPS
     figure
-      img.d-none.d-lg-block(src="@/assets/curso/tema3/13.svg" data-aos="zoom-in-up")
-      img.d-block.d-lg-none(src="@/assets/curso/tema3/14.svg" data-aos="zoom-in-up")
+      img.d-none.d-lg-block(src="@/assets/curso/tema3/13.svg" data-aos="zoom-in-up" alt="La imagen presenta un esquema de implementación de un IPS, comenzando desde el computador del usuario hasta los activos de información.")
+      img.d-block.d-lg-none(src="@/assets/curso/tema3/14.svg" data-aos="zoom-in-up" alt="La imagen presenta un esquema de implementación de un IPS, comenzando desde el computador del usuario hasta los activos de información.")
 
 
     p.mt-5(data-aos="fade-up") En la actualidad, existen muchas soluciones de tipo UTM que incorporan estos 2 tipos de soluciones dentro de sus herramientas, permitiendo extender la cobertura y control del tráfico que circula en la red.
@@ -191,22 +192,22 @@
               ul.lista-ul.mt-4
                 li(data-aos="fade-up")
                   i.fas.fa-check-circle(style="color:#40327B;")
-                  | Realiza análisis del tráfico a partir de verificación y comparación de patrones contra bases de datos con firmas conocidas de ataques maliciosos.
+                  span Realiza análisis del tráfico a partir de verificación y comparación de patrones contra bases de datos con firmas conocidas de ataques maliciosos.
                 li(data-aos="fade-up")
                   i.fas.fa-check-circle(style="color:#40327B;")
-                  | Realiza monitoreo permanente del tráfico que pasa por la red.
+                  span Realiza monitoreo permanente del tráfico que pasa por la red.
                 li(data-aos="fade-up")
                   i.fas.fa-check-circle(style="color:#40327B;")
-                  | Cuenta con la capacidad de monitorear el comportamiento de los sistemas de información para identificar la intención de algún ataque.
+                  span Cuenta con la capacidad de monitorear el comportamiento de los sistemas de información para identificar la intención de algún ataque.
                 li(data-aos="fade-up")
                   i.fas.fa-check-circle(style="color:#40327B;")
-                  | Permite identificar cambios en las configuraciones de los dispositivos o servicios.
+                  span Permite identificar cambios en las configuraciones de los dispositivos o servicios.
                 li(data-aos="fade-up")
                   i.fas.fa-check-circle(style="color:#40327B;")
-                  | Capacidad de emitir alertas en gran variedad de sistemas.
+                  span Capacidad de emitir alertas en gran variedad de sistemas.
                 li(data-aos="fade-up")
                   i.fas.fa-check-circle(style="color:#40327B;")
-                  | Requiere de actualización permanente de bases de datos con firmas actualizadas.
+                  span Requiere de actualización permanente de bases de datos con firmas actualizadas.
       .col-lg-6.mb-4.mb-lg-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor

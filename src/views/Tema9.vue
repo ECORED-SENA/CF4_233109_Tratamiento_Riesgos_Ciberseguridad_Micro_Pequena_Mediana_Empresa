@@ -65,7 +65,7 @@
     .row.mt-5.col-xl-10.m-auto.cont_9_1.p-4
       figure
         img(src="@/assets/curso/tema9/6.svg" data-aos="fade-right" style="max-width:60px;")
-      p.mt-4.col-lg-8(data-aos="fade-up") Si se analizan las Soluciones SIEM, por tipo de licencia, se encontrará una amplia gama de productos dividida en dos categorías: las comerciales, que cuentan con servicios de actualización de reglas, soporte técnico, mecanismos de integración con más soluciones; y, por otra parte, las soluciones Open Source, que son proyectos, por lo general en desarrollo, y que por su naturaleza no ofrecen soporte técnico ni asesoría en la implementación, esto se debe adquirir por aparte.
+      p.mt-4.col-lg-8(data-aos="fade-up") Si se analizan las Soluciones SIEM, por tipo de licencia, se encontrará una amplia gama de productos dividida en dos categorías: las comerciales, que cuentan con servicios de actualización de reglas, soporte técnico, mecanismos de integración con más soluciones; y, por otra parte, las soluciones #[em Open Source], que son proyectos, por lo general en desarrollo, y que por su naturaleza no ofrecen soporte técnico ni asesoría en la implementación, esto se debe adquirir por aparte.
       .row.mt-4
         .col-lg-7.mb-4.mb-lg-0
           p(data-aos="fade-up") También es posible identificar las soluciones SIEM de acuerdo con su modo de implementación y operación. Se tienen los SIEM Internos, que son aquellos que son implementados en la infraestructura tecnológica de la misma organización; los SIEM basados en la nube, que brindan mayor funcionalidad al permitirles acceder remotamente y sin hacer uso de los recursos de procesamientos dentro de la organización; y también se encuentran los SIEM Gestionados, los cuales se ofrecen como servicios y son administrados por terceros, bajo una modalidad de contrato.
@@ -79,8 +79,8 @@
       h5 Figura 17.
       span Soluciones SIEM disponibles en el mercado
     figure.mt-4
-      img.d-none.d-lg-block(src="@/assets/curso/tema9/9.svg" data-aos="zoom-in-up")
-      img.d-block.d-lg-none(src="@/assets/curso/tema9/10.svg" data-aos="zoom-in-up")
+      img.d-none.d-lg-block(src="@/assets/curso/tema9/9.svg" data-aos="zoom-in-up" alt="La imagen presenta las empresas que presentas soluciones SIEM en el mercado.")
+      img.d-block.d-lg-none(src="@/assets/curso/tema9/10.svg" data-aos="zoom-in-up" alt="La imagen presenta las empresas que presentas soluciones SIEM en el mercado.")
       figcaption(style="font-weight:400;background-color:#F6F6F6;") #[strong Nota.]  Basado en Marty (2013).
 
     Separador.mt-5
@@ -95,28 +95,28 @@
       ul.fa-ul.mt-4
         li.mb-2.d-block(data-aos="fade-up")
           i.fa-li.fa.fa-check-circle(style="color:#40327B;")
-          | #[strong Cumplimiento:] permite reconocer el nivel de cumplimiento frente a estándares y marcos de seguridad, por ejemplo: ISO 27001, NIST, CIS Controls, entre otras.
+          span #[strong Cumplimiento:] permite reconocer el nivel de cumplimiento frente a estándares y marcos de seguridad, por ejemplo: ISO 27001, NIST, CIS Controls, entre otras.
         li.mb-2.d-block(data-aos="fade-up")
           i.fa-li.fa.fa-check-circle(style="color:#40327B;")
-          | #[strong Analítica:] análisis de información proveniente de servicios o de generadores de datos, por ejemplo: ficheros log de servidores, bases de datos, etc.
+          span #[strong Analítica:] análisis de información proveniente de servicios o de generadores de datos, por ejemplo: ficheros log de servidores, bases de datos, etc.
         li.mb-2.d-block(data-aos="fade-up")
           i.fa-li.fa.fa-check-circle(style="color:#40327B;")
-          | #[strong Protección de dispositivos móviles:] vigilancia permanente de dispositivos móviles, dada la vulnerabilidad presentada por robo y su capacidad de perder información.
+          span #[strong Protección de dispositivos móviles:] vigilancia permanente de dispositivos móviles, dada la vulnerabilidad presentada por robo y su capacidad de perder información.
         li.mb-2.d-block(data-aos="fade-up")
           i.fa-li.fa.fa-check-circle(style="color:#40327B;")
-          | #[strong Protección ante amenazas:] búsqueda, reporte y bloqueo de nuevas amenazas.
+          span #[strong Protección ante amenazas:] búsqueda, reporte y bloqueo de nuevas amenazas.
         li.mb-2.d-block(data-aos="fade-up")
           i.fa-li.fa.fa-check-circle(style="color:#40327B;")
-          | #[strong Administración:] gestión centralizada de los dispositivos protegidos.
+          span #[strong Administración:] gestión centralizada de los dispositivos protegidos.
         li.mb-2.d-block(data-aos="fade-up")
           i.fa-li.fa.fa-check-circle(style="color:#40327B;")
-          | #[strong Protección de datos:] establecer las políticas para el comportamiento ante ciertas acciones.
+          span #[strong Protección de datos:] establecer las políticas para el comportamiento ante ciertas acciones.
         li.mb-2.d-block(data-aos="fade-up")
           i.fa-li.fa.fa-check-circle(style="color:#40327B;")
-          | #[strong Protección de dispositivos:] capacidad de gestionar dispositivos que presenten algún comportamiento extraño.
+          span #[strong Protección de dispositivos:] capacidad de gestionar dispositivos que presenten algún comportamiento extraño.
         li.d-block(data-aos="fade-up")
           i.fa-li.fa.fa-check-circle(style="color:#40327B;")
-          | #[strong Protección de red:] capacidad de analizar el tráfico que fluye en la red y tomar acciones de acuerdo con patrones y políticas implementadas.
+          span #[strong Protección de red:] capacidad de analizar el tráfico que fluye en la red y tomar acciones de acuerdo con patrones y políticas implementadas.
 
     p.mt-5(data-aos="fade-up") Como se puede observar en la siguiente figura, estas características deben incorporarse como mínimo en un SIEM en una organización para mantener un panorama completo de la seguridad:
 
@@ -124,8 +124,8 @@
       h5 Figura 18.
       span Funcionalidades de un SIEM
     figure.mt-4
-      img.d-none.d-lg-block(src="@/assets/curso/tema9/11.svg" data-aos="zoom-in-up")
-      img.d-block.d-lg-none(src="@/assets/curso/tema9/12.svg" data-aos="zoom-in-up")
+      img.d-none.d-lg-block(src="@/assets/curso/tema9/11.svg" data-aos="zoom-in-up" alt="La imagen presetna las funcionalidades de un SIEM, las cuales son: Compliance, Analytics, Mobile Protection, Threat Protection, Management, Data Protection, Endpoint Protection, Network Protection")
+      img.d-block.d-lg-none(src="@/assets/curso/tema9/12.svg" data-aos="zoom-in-up" alt="La imagen presetna las funcionalidades de un SIEM, las cuales son: Compliance, Analytics, Mobile Protection, Threat Protection, Management, Data Protection, Endpoint Protection, Network Protection")
 
     p.mt-5(data-aos="fade-up") Asimismo, es importante resaltar el esquema lógico de un SIEM, que se puede apreciar en la siguiente figura, donde se presenta un esquema de cómo, a partir de la ingesta o alimentación de fuentes de diferentes sistemas de información, consigue realizar un procesamiento y correlación de patrones para generar una vista amigable, como se había visto en el #[em dashboard]:
 
@@ -133,8 +133,8 @@
       h5 Figura 19.
       span Esquema lógico de un SIEM
     figure.mt-4
-      img.d-none.d-lg-block(src="@/assets/curso/tema9/13.svg" data-aos="zoom-in-up")
-      img.d-block.d-lg-none(src="@/assets/curso/tema9/14.svg" data-aos="zoom-in-up")
+      img.d-none.d-lg-block(src="@/assets/curso/tema9/13.svg" data-aos="zoom-in-up" alt="La imagen presenta el esquem lógico de un SIEM, comenzando con los inputs y finalizando con los outputs.")
+      img.d-block.d-lg-none(src="@/assets/curso/tema9/14.svg" data-aos="zoom-in-up" alt="La imagen presenta el esquem lógico de un SIEM, comenzando con los inputs y finalizando con los outputs.")
 
 
 

@@ -8,18 +8,18 @@
       h1 #[em Antimalware]
 
     .row.cont_5_1(style="position:relative;")
-      .col-lg-10.col-md-8.mb-4.mb-md-0
+      .col-lg-10.col-md-12.mb-4.mb-md-0
         p.mb-0(data-aos="fade-up") El #[em malware], de acuerdo con #[em MalwareBytes], “es un término amplio que describe cualquier programa o código malicioso que es dañino para los sistemas” (#[em MalwareBytes], 2021), es capaz de invadir nuestros sistemas de información de manera intrusiva para causar daños, generando pérdidas de información en caso de no estar preparados.
         p.mt-4(data-aos="fade-up") Existen varios tipos de #[em malware] y tienen su impacto diferente dependiendo de su funcionamiento; en el siguiente video, es posible identificar aquellos tipos de #[em malware] más conocidos y que han generado estragos en los últimos años:
-      .col-lg-2.col-md-4(style="place-self:center")
+      .col-lg-2.col-md-4(style="place-self:center").d-none.d-lg-block
         figure.d-flex.justify-content-center
           img(src="@/assets/curso/tema5/1.svg" data-aos="fade-left" style="max-width:100px;")
 
-    p.mt-5(data-aos="fade-up") #[strong Ataques de seguridad en la red]
 
-    figure.mt-5
+    figure.mt-4
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/x56FT_OVARQ" title="Ataques de seguridad en la red" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Ataques de seguridad en la red
 
     p.mt-5(data-aos="fade-up") El #[em malware], una vez logra afectar un dispositivo, puede presentar los siguientes síntomas, que llevan a identificar que se encuentra afectado por este tipo de programas:
 
@@ -165,6 +165,7 @@
     figure.mt-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/XuDaYwxGMU0" title="Detección y Respuesta para Endpoints (EDR)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Detección y Respuesta para Endpoints (EDR)
 
     .mt-5.row.mb-5(style="background-color:#40327B;border-top-right-radius:150px;border-bottom-right-radius:150px;max-width:fit-content;")
       .col-auto.p-0(style="place-self:center;")
@@ -223,8 +224,8 @@
       h5 Figura 7.
       span Arquitectura adaptativa por niveles de seguridad para soluciones EDR
     figure.mt-4
-      img.d-none.d-lg-block(src="@/assets/curso/tema5/29.svg" data-aos="zoom-in-up")
-      img.d-block.d-lg-none(src="@/assets/curso/tema5/29.svg" data-aos="zoom-in-up")
+      img.d-none.d-lg-block(src="@/assets/curso/tema5/29.svg" data-aos="zoom-in-up" alt="La imagen presenta la arquitectura adaptativa por niveles de seguridad para soluciones EDR, el cual está compuesto por el análisis de riesgos y endurecimiento, la prevención, la detección y respuesta y los informes de integración.")
+      img.d-block.d-lg-none(src="@/assets/curso/tema5/29.svg" data-aos="zoom-in-up" alt="La imagen presenta la arquitectura adaptativa por niveles de seguridad para soluciones EDR, el cual está compuesto por el análisis de riesgos y endurecimiento, la prevención, la detección y respuesta y los informes de integración.")
       figcaption(style="font-weight:400;background-color:#F6F6F6;") #[strong Nota.] Basado en Bitdefender (s. f.).
 
 

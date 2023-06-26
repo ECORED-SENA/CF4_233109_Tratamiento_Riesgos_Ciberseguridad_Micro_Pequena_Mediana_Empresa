@@ -8,9 +8,9 @@
       h1 #[em Firewall]
 
     .row.cont_2_1(style="position:relative;")
-      .col-lg-10.col-md-8.mb-4.mb-md-0
+      .col-lg-10.col-md-12.col-md-8.mb-4.mb-md-0
         p.mb-0(data-aos="fade-up") Los #[em Firewalls], también conocidos como cortafuegos, cumplen la función de proteger los activos de información de la organización mediante la gestión del tráfico entrante y saliente entre redes, permitiendo bloquear o garantizar el acceso a partir de la aplicación de políticas, tal como se muestra en la siguiente figura. Teniendo presente el tráfico, por defecto, debe partir de la siguiente lógica:
-      .col-lg-2.col-md-4(style="place-self:center")
+      .col-lg-2.col-md-4(style="place-self:center").d-none.d-lg-block
         figure.d-flex.justify-content-center
           img(src="@/assets/curso/tema2/1.svg" data-aos="fade-left" style="max-width:100px;")
 
@@ -30,8 +30,10 @@
       h5 Figura 2.
       span Gestión de tráfico entrante por #[em Firewall]
     figure.mt-4
-      img.d-none.d-lg-block(src="@/assets/curso/tema2/4.svg" data-aos="zoom-in-up")
-      img.d-block.d-lg-none(src="@/assets/curso/tema2/5.svg" data-aos="zoom-in-up")
+      img.d-none.d-lg-block(src="@/assets/curso/tema2/4.svg" data-aos="zoom-in-up" alt="La imagen presenta la gestión de tráfico entrante por firewall, donde se presenta cómo se actúa ante un usuario autorizado y no autorizado para llegar a los activos de información.")
+      img.d-block.d-lg-none(src="@/assets/curso/tema2/5.svg" data-aos="zoom-in-up" alt="La imagen presenta la gestión de tráfico entrante por firewall, donde se presenta cómo se actúa ante un usuario autorizado y no autorizado para llegar a los activos de información.")
+    figcaption
+      span #[strong Nota.] Adaptado de ICHI.PRO - Introducción a la gestión de identidades y accesos
 
     p.mt-5(data-aos="fade-up") #[strong Los #[em firewalls] cuentan con políticas para la gestión de tráfico por defecto, pero cada administrador de red puede crear o modificarlas de acuerdo con sus necesidades.]
 
@@ -126,7 +128,7 @@
           figure
             img(src="@/assets/curso/tema2/18.svg" data-aos="fade-right" style="width:60px;filter: brightness(4);")
         .col.p-3.pt-4.pb-4.d-flex.align-items-center.cont_sub_tarjeta_texto(style="background-color:#D5CEF8;border-top-right-radius:10px;border-bottom-right-radius:10px;")
-          p.mb-0(data-aos="fade-up") Evitar ataques de presentación hacia la red interna, por ejemplo, deteniendo ataques de denegación de servicios o de suplantación IP Address Spoofing, entre otros.
+          p.mb-0(data-aos="fade-up") Evitar ataques de presentación hacia la red interna, por ejemplo, deteniendo ataques de denegación de servicios o de suplantación IP #[em Address Spoofing], entre otros.
       .row.m-0.col-lg-4.cont_tarjeta_2_1.mt-4
         .col-auto.p-3.pt-4.pb-4.d-flex.align-items-center.cont_sub_tarjeta_img(style="background-color:#583AE2;border-top-left-radius:10px;border-bottom-left-radius:10px;")
           figure
@@ -144,6 +146,7 @@
     figure.mt-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/V-8J5rlLBb4" title="Tipos de soluciones Firewall" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Tipos de soluciones Firewall
 
 
 

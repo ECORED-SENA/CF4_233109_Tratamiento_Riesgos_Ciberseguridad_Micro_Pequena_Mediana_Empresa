@@ -8,11 +8,11 @@
       h1 Parcheado y/o actualización
 
     .row
-      .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
+      .col-lg-8.col-md-12.mb-4.mb-lg-0(style="place-self:center;")
         p(data-aos="fade-up") La gestión de las actualizaciones y parcheo de los sistemas de información o de los dispositivos de la organización se convierte en un factor fundamental para garantizar la seguridad de la información, ya que, a partir de esta gestión, es posible reducir amenazas por desactualización de sistemas y evitar que terceros puedan aprovecharla.
         p.mt-4(data-aos="fade-up") Desde los estándares de seguridad abordados, se presenta como una premisa que se deben mantener los sistemas de información, aplicaciones e incluso dispositivos de red actualizados en su última versión, lo que garantiza que cuenten con los últimos ajustes y solución a #[em bugs] que puedan ser aprovechados para abrir brechas a la seguridad de la información.
         p.mt-4(data-aos="fade-up") #[strong A continuación, se van a revisar algunos detalles importantes relacionados con este ejercicio y así poder comprender su utilidad y necesidad de aplicarlos en la infraestructura tecnológica:]
-      .col-lg-4(style="place-self:center")
+      .col-lg-4(style="place-self:center").d-none.d-lg-block
         figure
           img(src="@/assets/curso/tema10/1.png" data-aos="fade-left")
 
@@ -38,27 +38,27 @@
 
     p.mt-5(data-aos="fade-up") #[strong Ahora bien, los parches también se pueden clasificar de acuerdo con el propósito para el cual fueron generados, es así como es posible clasificarlos de la siguiente manera:]
 
-    .p-4.p-md-5.mt-5.row(style="background-color:#D5CEF8;")
+    .row.justify-content-center.p-4.p-md-5.mt-5(style="background-color:#D5CEF8;")
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center")
         ul.fa-ul
           li.mb-3.d-block(data-aos="fade-up")
             i.fa-li.fa.fa-check-circle(style="color:#40327B;")
-            | Parche de reparación: parche que corrige fallas o #[em bugs] en los sistemas.
+            span #[strong Parche de reparación:] parche que corrige fallas o #[em bugs] en los sistemas.
           li.mb-3.d-block(data-aos="fade-up")
             i.fa-li.fa.fa-check-circle(style="color:#40327B;")
-            | Parche de seguridad: parches que solucionan agujeros de seguridad o brechas en la seguridad del mismo, sin modificar la funcionalidad del sistema.
+            span #[strong Parche de seguridad:] parches que solucionan agujeros de seguridad o brechas en la seguridad del mismo, sin modificar la funcionalidad del sistema.
           li.mb-3.d-block(data-aos="fade-up")
             i.fa-li.fa.fa-check-circle(style="color:#40327B;")
-            | Parche de actualización: este tipo de parches actualiza algunas rutinas, métodos, o agrega funcionalidades al sistema.
+            span #[strong Parche de actualización:] este tipo de parches actualiza algunas rutinas, métodos, o agrega funcionalidades al sistema.
           li.mb-3.d-block(data-aos="fade-up")
             i.fa-li.fa.fa-check-circle(style="color:#40327B;")
-            | Parche de traducción: este tipo de parches permite cambiar el lenguaje de un sistema.
+            span #[strong Parche de traducción:] este tipo de parches permite cambiar el lenguaje de un sistema.
           li.mb-3.d-block(data-aos="fade-up")
             i.fa-li.fa.fa-check-circle(style="color:#40327B;")
-            | Parche de piratería ilegal: este parche, denominado también #[em crack], permite liberar funcionalidades o alterar rutinas del sistema de manera ilegal.
+            span #[strong Parche de piratería ilegal:] este parche, denominado también #[em crack], permite liberar funcionalidades o alterar rutinas del sistema de manera ilegal.
           li.mb-3.d-block(data-aos="fade-up")
-            | #[strong No se recomienda la aplicación de este tipo de parches en organizaciones. ]
-      .col-lg-4
+            span #[strong No se recomienda la aplicación de este tipo de parches en organizaciones. ]
+      .col-lg-4.col-7
         figure
           img(src="@/assets/curso/tema10/4.svg" data-aos="fade-left")
 
@@ -68,9 +68,9 @@
       h2#t_10_2 10.2 Características
 
     .row.cont_10_2(style="position:relative;")
-      .col-lg-10.col-md-8.mb-4.mb-md-0
+      .col-lg-10.col-md-12.mb-4.mb-md-0
         p.mb-0(data-aos="fade-up") A continuación, se van a reconocer algunas características y recomendaciones para una adecuada gestión de parches y actualizaciones en sistemas de información y de arquitecturas tecnológicas en las organizaciones.
-      .col-lg-2.col-md-4(style="place-self:center")
+      .col-lg-2.col-md-4(style="place-self:center").d-none.d-xl-block
         figure.d-flex.justify-content-center
           img(src="@/assets/curso/tema10/5.svg" data-aos="fade-left" style="max-width:100px;")
 

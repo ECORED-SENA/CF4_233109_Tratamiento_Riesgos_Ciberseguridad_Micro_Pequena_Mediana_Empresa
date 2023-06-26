@@ -194,8 +194,8 @@
         h5 Figura 14.
         span Funciones básicas del #[em Framework] de NIST
       figure.mt-4
-        img.d-none.d-lg-block(src="@/assets/curso/tema8/19.svg" data-aos="zoom-in-up")
-        img.d-block.d-lg-none(src="@/assets/curso/tema8/20.svg" data-aos="zoom-in-up")
+        img.d-none.d-lg-block(src="@/assets/curso/tema8/19.svg" data-aos="zoom-in-up" alt="La imagen presenta las funciones básicas del framewok de NIST, las cuales son: identificar, proteger, detectar, responder y recuperar.")
+        img.d-block.d-lg-none(src="@/assets/curso/tema8/20.svg" data-aos="zoom-in-up" alt="La imagen presenta las funciones básicas del framewok de NIST, las cuales son: identificar, proteger, detectar, responder y recuperar.")
 
     p.mt-5(data-aos="fade-up") De igual manera, propone cuatro elementos que enmarcan las actividades y referentes para la aplicación del presente marco, como se puede observar a continuación:
 
@@ -203,8 +203,8 @@
       h5 Figura 15.
       span Elementos que determinan las actividades a realizar
     figure.mt-4
-      img.d-none.d-lg-block(src="@/assets/curso/tema8/21.svg" data-aos="zoom-in-up")
-      img.d-block.d-lg-none(src="@/assets/curso/tema8/22.svg" data-aos="zoom-in-up")
+      img.d-none.d-lg-block(src="@/assets/curso/tema8/21.svg" data-aos="zoom-in-up" alt="La imagen presenta los cuatro elementos que determinan las actividades a realizar, las cuales son: las funciones, las categorías, las subcategorías y las referencias informativas.")
+      img.d-block.d-lg-none(src="@/assets/curso/tema8/22.svg" data-aos="zoom-in-up" alt="La imagen presenta los cuatro elementos que determinan las actividades a realizar, las cuales son: las funciones, las categorías, las subcategorías y las referencias informativas.")
       figcaption(style="font-weight:400;background-color:#F6F6F6;") #[strong Nota.] Basado en Gómez (2009).
 
     p.mt-5(data-aos="fade-up") Estas funciones y categorías se articulan para generar un modelo que permita gestionar la ciberseguridad en las organizaciones, así:
@@ -303,8 +303,8 @@
       h5 Figura 16.
       span  Pasos para la implementación de CSF en una organización
     figure.mt-4
-      img.d-none.d-lg-block(src="@/assets/curso/tema8/23.svg" data-aos="zoom-in-up")
-      img.d-block.d-lg-none(src="@/assets/curso/tema8/23.svg" data-aos="zoom-in-up")
+      img.d-none.d-lg-block(src="@/assets/curso/tema8/23.svg" data-aos="zoom-in-up" alt="La imagen presenta los pasos básicos para la implementación del CSF en una organización: priorizar el alcance, orientar, crear un perfil actual, realizar una evaluación de riesgos, crear un perfil de destino, determinar, analizar y priorizar brechas, e implementar un plan de acción.")
+      img.d-block.d-lg-none(src="@/assets/curso/tema8/23.svg" data-aos="zoom-in-up" alt="La imagen presenta los pasos básicos para la implementación del CSF en una organización: priorizar el alcance, orientar, crear un perfil actual, realizar una evaluación de riesgos, crear un perfil de destino, determinar, analizar y priorizar brechas, e implementar un plan de acción.")
 
     p.mt-5(data-aos="fade-up") A continuación, se amplía cada uno de los pasos de acuerdo con su papel en la implementación NIST CSF:
 
@@ -324,7 +324,7 @@
                 img(src='@/assets/curso/tema8/26.png' data-aos="fade-left")
             .col-md-6
               h4(data-aos="fade-right") Orientación
-              p.mt-4(data-aos="fade-right") Se identifican los sistemas, activos, requerimientos regulatorios, amenazas y vulnerabilidades vinculadas al entorno de aplicabilidad definido.
+              p.mt-4(data-aos="fade-right" style="text-align:left") Se identifican los sistemas, activos, requerimientos regulatorios, amenazas y vulnerabilidades vinculadas al entorno de aplicabilidad definido.
           .row
             .col-md-6.mb-4.mb-md-0
               h4(data-aos="fade-right") Crear un perfil actual o literal
@@ -337,12 +337,12 @@
               figure
                 img(src='@/assets/curso/tema8/28.png' data-aos="fade-left")
             .col-md-6
-              h4(data-aos="fade-right") Ejecutar un análisis de riesgos
-              p.mt-4(data-aos="fade-right") Se ejecuta un análisis de riesgos que permita determinar la probabilidad y el impacto de eventos de ciberseguridad en el entorno analizado.
+              h4(data-aos="fade-right"  style="text-align:left") Ejecutar un análisis de riesgos
+              p.mt-4(data-aos="fade-right" style="text-align:left") Se ejecuta un análisis de riesgos que permita determinar la probabilidad y el impacto de eventos de ciberseguridad en el entorno analizado.
           .row
             .col-md-6.mb-4.mb-md-0
-              h4(data-aos="fade-right") Crear un perfil objetivo
-              p.mt-4(data-aos="fade-right") Se establecen los objetivos que, en términos de ciberseguridad, la organización pretende cubrir.
+              h4(data-aos="fade-right" ) Crear un perfil objetivo
+              p.mt-4(data-aos="fade-right" style="text-align:left") Se establecen los objetivos que, en términos de ciberseguridad, la organización pretende cubrir.
             .col-md-6
               figure
                 img(src='@/assets/curso/tema8/29.png' data-aos="fade-left")
@@ -351,12 +351,12 @@
               figure
                 img(src='@/assets/curso/tema8/30.png' data-aos="fade-left")
             .col-md-6
-              h4(data-aos="fade-right") Determinar, analizar y priorizarlas brechas detectadas
-              p.mt-4(data-aos="fade-right") Mediante el análisis diferencial entre el perfil actual y el perfil objetivo, se define un plan de acción priorizado en términos de coste/beneficio, que permita la determinación de recursos y acciones de mejora.
+              h4(data-aos="fade-right"  style="text-align:left") Determinar, analizar y priorizarlas brechas detectadas
+              p.mt-4(data-aos="fade-right" style="text-align:left") Mediante el análisis diferencial entre el perfil actual y el perfil objetivo, se define un plan de acción priorizado en términos de coste/beneficio, que permita la determinación de recursos y acciones de mejora.
           .row
             .col-md-6.mb-4.mb-md-0
               h4(data-aos="fade-right") Implementar el plan de acción
-              p.mt-4(data-aos="fade-right") Se procede con la alineación de controles y despliegue de mejoras, de forma paulatina y monitorizada.
+              p.mt-4(data-aos="fade-right"  style="text-align:left") Se procede con la alineación de controles y despliegue de mejoras, de forma paulatina y monitorizada.
             .col-md-6
               figure
                 img(src='@/assets/curso/tema8/31.png' data-aos="fade-left")

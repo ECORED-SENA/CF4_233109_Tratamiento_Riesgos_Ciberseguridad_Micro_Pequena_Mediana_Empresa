@@ -45,8 +45,8 @@
       h5 Figura 1.
       span Pasos de un control de gestión de acceso
     figure.mt-4
-      img.d-none.d-lg-block(src="@/assets/curso/tema1/6.svg" data-aos="zoom-in-up")
-      img.d-block.d-lg-none(src="@/assets/curso/tema1/7.svg" data-aos="zoom-in-up")
+      img.d-none.d-lg-block(src="@/assets/curso/tema1/6.svg" data-aos="zoom-in-up" alt="La imagen presenta los pasos de un control de gestión de acceso, el cual comienza con el usuario, la identificación, autenticación y autorización. Si en esta última se bloquea, presenta alerta y reporte, y si se autoriza, va a los recursos.")
+      img.d-block.d-lg-none(src="@/assets/curso/tema1/7.svg" data-aos="zoom-in-up" alt="La imagen presenta los pasos de un control de gestión de acceso, el cual comienza con el usuario, la identificación, autenticación y autorización. Si en esta última se bloquea, presenta alerta y reporte, y si se autoriza, va a los recursos.")
       figcaption(style="font-weight:400;background-color:#F6F6F6;") #[strong Nota.] Adaptado de ICHI.PRO - Introducción a la gestión de identidades y accesos
 
     p.mt-5(data-aos="fade-up") Como factor fundamental de este control, se debe considerar contar con mecanismos de auditoría que registren y/o alerten sobre accesos no permitidos o fallidos, con el fin de determinar accesos no autorizados.
@@ -57,15 +57,16 @@
       h2#t_1_1 1.1 Tipos
 
     .row.cont_1_1(style="position:relative;")
-      .col-lg-10.col-md-8.mb-4.mb-md-0
+      .col-lg-10.col-md-12.mb-4.mb-md-0
         p.mb-0(data-aos="fade-up") El control para la gestión de accesos se puede abordar desde diferentes frentes, tanto de gestión como técnicos. A continuación, se van a identificar algunos de los más comunes:
-      .col-lg-2.col-md-4(style="place-self:center")
+      .col-lg-2.col-md-4(style="place-self:center").d-none.d-lg-block
         figure.d-flex.justify-content-center
           img(src="@/assets/curso/tema1/8.svg" data-aos="fade-left" style="max-width:100px;")
 
     p.mt-4(data-aos="fade-up") #[strong De acuerdo con la complejidad del control, estos pueden ser:]
 
     .row.mt-5.col-xl-10.m-auto
+
       .col-lg.mb-4.mb-lg-0
         .p-4.h-100.cont_tarjeta2(style="background-color:#583AE2;border-radius:15px;")
           img.img_fondo(src="@/assets/curso/tema1/12.png")
@@ -73,9 +74,10 @@
             img(src="@/assets/curso/tema1/10.svg" data-aos="zoom-in-up" style="max-width:140px;")
           h4.text-white.mt-4.text-center(data-aos="fade-up") Básicos
           p.mt-4.text-white(data-aos="fade-up") Su implementación no requiere de mayor esfuerzo ni ajustes en los sistemas de información y pueden abordarse con capacitaciones y controles básicos.
+
       .col-lg.mb-4.mb-lg-0
-        .p-4.h-100.cont_tarjeta3(style="background-color:#45BBCC;border-radius:15px;")
-          img.img_fondo(src="@/assets/curso/tema1/9.png")
+        .p-4.h-100.cont_tarjeta2(style="background-color:#583AE2;border-radius:15px;")
+          img.img_fondo(src="@/assets/curso/tema1/12.png")
           figure.d-flex.justify-content-center
             img(src="@/assets/curso/tema1/11.svg" data-aos="zoom-in-up" style="max-width:140px;")
           h4.text-white.mt-4.text-center(data-aos="fade-up") Avanzados
@@ -84,7 +86,7 @@
     p.mt-5(data-aos="fade-up") Dentro de los tipos de accesos a los sistemas de información, es necesario considerar los siguientes controles:
 
     figure.mt-5
-      img(src="@/assets/curso/tema1/13.svg" data-aos="zoom-in-up")
+      img(src="@/assets/curso/tema1/13.svg" data-aos="zoom-in-up" alt="La imagen presenta los tipos de accesos a los sistemas de información, los cuales contienen controles y se clasifican en control para la gestión de usuario y control accesos, el cual a su vez se clasifican en control de accesos a dispositivos, control de acceso a los sistemas de información y activos y control de acceso a recursos de red.")
 
     Separador.mt-5
 
