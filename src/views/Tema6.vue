@@ -73,11 +73,11 @@
             ul.lista-ul.mt-4
               li.mb-4(data-aos="fade-up")
                 i.fas.fa-check-circle(style="color:#40327B;")
-                span #[strong #[u Cifrado simétrico]:] este tipo de cifrado hace uso de una sola llave tanto para cifrar un mensaje como para recuperarlo.
+                span #[strong Cifrado simétrico:] este tipo de cifrado hace uso de una sola llave tanto para cifrar un mensaje como para recuperarlo.
               li(data-aos="fade-up")
                 i.fas.fa-check-circle(style="color:#40327B;")
                 div
-                  p.mb-0 #[strong #[u Cifrado asimétrico]:] este tipo de cifrado hace uso de dos llaves:
+                  p.mb-0 #[strong Cifrado asimétrico:] este tipo de cifrado hace uso de dos llaves:
                   .ps-4.pt-2
                     ol.lista-ul
                       li.mb-0

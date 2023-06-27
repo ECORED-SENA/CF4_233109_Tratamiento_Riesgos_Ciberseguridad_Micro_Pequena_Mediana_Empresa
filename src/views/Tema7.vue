@@ -170,7 +170,7 @@
     .row.justify-content-center
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center")
         p(data-aos="fade-up") Las organizaciones actualmente vienen habilitando las capacidades para poder desarrollar sus actividades sin que necesariamente sus empleados se encuentren en la sede física y, aprovechando la reglamentación y cumplimiento tanto legal como laboral, estas deben garantizar que los empleados cuenten con los recursos necesarios para el desarrollo de sus actividades; entre estos, se encuentran las condiciones de seguridad, por ello, se sugiere considerar las siguientes recomendaciones adicionales para el desarrollo de actividades bajo la modalidad de teletrabajo:
-      .col-lg-4.col-8(style="place-self:center")
+      .col-lg-4.col-8(style="place-self:center").d-none.d-lg-block
         figure
           img(src="@/assets/curso/tema7/18.png" data-aos="fade-left")
 
