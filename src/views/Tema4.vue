@@ -66,10 +66,10 @@
         figure.d-flex.justify-content-center
           img(src="@/assets/curso/tema4/8.svg" data-aos="fade-left" style="max-width:100px;")
       .col-lg-10.col-md-8
-        p.mb-0(data-aos="fade-up") Este tipo de dispositivos UTM/XTM cuenta con las capacidades para realizar la gestión de la seguridad, mediante la administración tráfico, análisis de #[em malware], control de aplicaciones, gestión de vlan, como lo demuestra la siguiente figura:
+        p.mb-0(data-aos="fade-up") Este tipo de dispositivos UTM/XTM cuenta con las capacidades para realizar la gestión de la seguridad, mediante la administración, tráfico, análisis de #[em malware], control de aplicaciones, gestión de vlan, como lo demuestra la siguiente figura:
 
     .titulo-sexto.color-acento-contenido.mt-5
-      h5 Figura 6.
+      h5 Figura 7.
       span Características y funcionalidades de los UTM/XTM
     figure.mt-4
       img(src="@/assets/curso/tema4/9.svg" data-aos="zoom-in-up" alt="La imagen presenta las características y funcionalidades de los UTM/XTM.")

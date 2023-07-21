@@ -446,7 +446,7 @@ export default {
   ],
   complementario: [
     {
-      tema: '1. Gestión de acceso',
+      tema: 'Gestión de acceso',
       referencia:
         'Arroyo, D., Gayoso, V. y Hernández, L. (2020). ¿Qué sabemos de? Ciberseguridad. Editorial CSIC. ',
       tipo: 'Libro digital',
@@ -454,39 +454,39 @@ export default {
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/172144',
     },
     {
-      tema: '1. Gestión de acceso',
+      tema: 'Gestión de acceso',
       referencia:
         'ISO. (2022). ISO/IEC 27001:2013 Information technology — Security techniques — Information security management systems — Requirements.',
       tipo: 'Norma técnica',
       link: 'https://www.iso.org/standard/54534.html',
     },
     {
-      tema: '1. Gestión de acceso',
+      tema: 'Gestión de acceso',
       referencia: 'NIST. (2021). Cybersecurity Framework. ',
       tipo: 'Norma técnica',
       link: 'https://www.nist.gov/cyberframework',
     },
     {
-      tema: '2. Firewall ',
+      tema: 'Firewall ',
       referencia: 'Server World. (2020a). Apache2: Configure SSL/TLS. ',
       tipo: 'Artículo',
       link:
         'https://www.server-world.info/en/note?os=Ubuntu_20.04&p=httpd&f=3 ',
     },
     {
-      tema: '2. Firewall ',
+      tema: 'Firewall ',
       referencia: 'Server World. (2020b). FTP: Vsftpd Over SSL/TLS. ',
       tipo: 'Artículo',
       link: 'https://www.server-world.info/en/note?os=Ubuntu_20.04&p=ftp&f=6 ',
     },
     {
-      tema: '7.1 Tipos',
+      tema: 'Tipos',
       referencia: 'Server World. (2020c). OpenSSH: Password Authentication. ',
       tipo: 'Artículo',
       link: 'https://www.server-world.info/en/note?os=Ubuntu_20.04&p=ssh&f=1',
     },
     {
-      tema: '2. Firewall ',
+      tema: 'Firewall ',
       referencia:
         'SeguriLatam. (2020). Seguridad en dispositivos móviles: ¿cuáles son las ciberamenazas más peligrosas? ',
       tipo: 'Artículo',

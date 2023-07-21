@@ -76,7 +76,7 @@
     p.mt-5(data-aos="fade-up") #[strong En la siguiente figura, es posible observar un listado de los productos más representativos disponibles en el mercado:]
 
     .titulo-sexto.color-acento-contenido.mt-5
-      h5 Figura 17.
+      h5 Figura 19.
       span Soluciones SIEM disponibles en el mercado
     figure.mt-4
       img.d-none.d-lg-block(src="@/assets/curso/tema9/9.svg" data-aos="zoom-in-up" alt="La imagen presenta las empresas que presentas soluciones SIEM en el mercado.")
@@ -91,7 +91,7 @@
     p(data-aos="fade-up") De acuerdo con INCIBE, un SIEM es “una solución híbrida centralizada que engloba la gestión de información de seguridad (#[em Security Information Management]) y la gestión de eventos (#[em Security Event Manager])” (INCIBE, 2020).
 
     .mt-5.p-4.p-lg-5(style="background-color:#D5CEF8;")
-      p(data-aos="fade-up") Entre las funcionalidades más relevante de un SIEM, se pueden resaltar las siguientes:
+      p(data-aos="fade-up") Entre las funcionalidades más relevantes de un SIEM, se pueden resaltar las siguientes:
       ul.fa-ul.mt-4
         li.mb-2.d-block(data-aos="fade-up")
           i.fa-li.fa.fa-check-circle(style="color:#40327B;")
@@ -121,7 +121,7 @@
     p.mt-5(data-aos="fade-up") Como se puede observar en la siguiente figura, estas características deben incorporarse como mínimo en un SIEM en una organización para mantener un panorama completo de la seguridad:
 
     .titulo-sexto.color-acento-contenido.mt-5
-      h5 Figura 18.
+      h5 Figura 20.
       span Funcionalidades de un SIEM
     figure.mt-4
       img.d-none.d-lg-block(src="@/assets/curso/tema9/11.svg" data-aos="zoom-in-up" alt="La imagen presetna las funcionalidades de un SIEM, las cuales son: Compliance, Analytics, Mobile Protection, Threat Protection, Management, Data Protection, Endpoint Protection, Network Protection")
@@ -130,7 +130,7 @@
     p.mt-5(data-aos="fade-up") Asimismo, es importante resaltar el esquema lógico de un SIEM, que se puede apreciar en la siguiente figura, donde se presenta un esquema de cómo, a partir de la ingesta o alimentación de fuentes de diferentes sistemas de información, consigue realizar un procesamiento y correlación de patrones para generar una vista amigable, como se había visto en el #[em dashboard]:
 
     .titulo-sexto.color-acento-contenido.mt-5
-      h5 Figura 19.
+      h5 Figura 21.
       span Esquema lógico de un SIEM
     figure.mt-4
       img.d-none.d-lg-block(src="@/assets/curso/tema9/13.svg" data-aos="zoom-in-up" alt="La imagen presenta el esquem lógico de un SIEM, comenzando con los inputs y finalizando con los outputs.")
@@ -184,7 +184,7 @@ export default {
   left: -1%
   background: url(../assets/curso/tema9/8.png)
   background-size: 100% 100%
-@media screen and (max-width: 1300px)
+@media screen and (max-width: 1399px)
   .cont_9_1:before
     width: 100%
     height: 100%

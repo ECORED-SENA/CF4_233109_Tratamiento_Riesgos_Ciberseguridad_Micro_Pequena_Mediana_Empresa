@@ -59,7 +59,7 @@
           img(src="@/assets/curso/tema3/3.svg" data-aos="fade-right")
 
     .titulo-sexto.color-acento-contenido.mt-5
-      h5 Figura 3.
+      h5 Figura 4.
       span Esquema de implementación de un IDS
     figure.mt-4
       img.d-none.d-lg-block(src="@/assets/curso/tema3/4.svg" data-aos="zoom-in-up" alt="La imagen presenta un esquema de implementación de un IDS, comenzando del computador del usuario, pasando por el router, el firewall, el switch, donde va a los activos de información, o pasa al IDS para generar una alerta.")
@@ -68,7 +68,7 @@
     p.mt-5(data-aos="fade-up") #[strong De acuerdo con su funcionalidad, es posible encontrar dos tipos de IDS:]
 
     .titulo-sexto.color-acento-contenido.mt-5
-      h5 Figura 4.
+      h5 Figura 5.
       span Diferencias entre #[em NIDS y HIDS]
     .row.mt-4
       .col-lg-6.mb-4.mb-lg-0
@@ -160,7 +160,7 @@
             span Operan desde la red interna, por lo general, después del #[em firewall] de seguridad perimetral.
 
     .titulo-sexto.color-acento-contenido.mt-5
-      h5 Figura 5.
+      h5 Figura 6.
       span Esquema de implementación de un IPS
     figure
       img.d-none.d-lg-block(src="@/assets/curso/tema3/13.svg" data-aos="zoom-in-up" alt="La imagen presenta un esquema de implementación de un IPS, comenzando desde el computador del usuario hasta los activos de información.")

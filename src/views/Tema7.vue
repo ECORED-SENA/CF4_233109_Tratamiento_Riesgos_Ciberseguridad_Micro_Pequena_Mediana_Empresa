@@ -50,7 +50,7 @@
     .titulo-segundo
       h2#t_7_1 7.1 Tipos
 
-    p(data-aos="fade-up") Los tipos de dispositivos móviles son utilizados para la comunicación y transmisión de información, entre los que se pueden identificar: teléfonos inteligentes, dispositivos smart entre los que se encuentran los relojes, dispositivos expansión de sonido, video o accesorios para interacción, como gafas 3D, que hacen parte de los dispositivos móviles y que cada uno, por el hecho de mantener una comunicación hacia la red y compartir datos sensibles, deben ser controlados y asegurados.
+    p(data-aos="fade-up") Los tipos de dispositivos móviles son utilizados para la comunicación y transmisión de información, entre los que se pueden identificar: teléfonos inteligentes, dispositivos smart entre los que se encuentran los relojes, dispositivos de expansión de sonido, video o accesorios para interacción, como gafas 3D, que hacen parte de los dispositivos móviles y que cada uno, por el hecho de mantener una comunicación hacia la red y compartir datos sensibles, deben ser controlados y asegurados.
     p.mt-4(data-aos="fade-up") #[strong Entre algunas de las amenazas actuales a las que están expuestos este tipo de dispositivos móviles, se encuentran las siguientes:]
 
     .tarjeta.tarjeta--azul.p-5.mt-5.cont_slyderab1
@@ -151,7 +151,7 @@
           img(src="@/assets/curso/tema7/15.svg" data-aos="fade-left" style="max-width:100px;")
 
     .titulo-sexto.color-acento-contenido.mt-5
-      h5 Figura 13.
+      h5 Figura 15.
       span Guía para NIST-SP800-114
     figure.mt-4
       img.d-none.d-lg-block(src="@/assets/curso/tema7/16.svg" data-aos="zoom-in-up" alt="La imagen presenta las 5 secciones correspondientes a la Guía para NIST-SP800-114 – Aseguramiento Filosofía BYOD.")

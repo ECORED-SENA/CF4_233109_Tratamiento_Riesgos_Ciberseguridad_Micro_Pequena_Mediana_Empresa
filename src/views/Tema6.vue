@@ -92,7 +92,7 @@
     p.mt-5(data-aos="fade-up") #[strong En la siguiente figura, puede observar el proceso para cifrar mensajes a partir de estos dos tipos de cifrado.]
 
     .titulo-sexto.color-acento-contenido.mt-5
-      h5 Figura 8.
+      h5 Figura 9.
       span Tipos de cifrado
     figure.mt-4
       img.d-none.d-lg-block(src="@/assets/curso/tema6/6.svg" data-aos="zoom-in-up" alt="La imagen presenta el proceso para cifrar mensajes, a partir de los diferentes tipos de cifrado: simétrico y asimétrico.")
@@ -116,11 +116,11 @@
       .py-4.py-md-5(titulo="HTTPS" :icono="require('@/assets/curso/tema6/22.svg')")
         .row.p-4
           h4 HTTPS
-          p El protocolo de servicio web HTTP viaja de manera plana a través de los medios de comunicación, lo que lo hace vulnerable a cualquier interceptación, permitiendo recuperar información sensible, alterar y/o aplicar sentencias dañinas; para mejorar la seguridad de este protocolo, se realizan implementaciones como SSL, acrónimo de Secure Sockets Layer, la cual permite realizar un cifrado a la información transmitida entre dos puntos.
+          p El protocolo de servicio web HTTP viaja de manera plana a través de los medios de comunicación, lo que lo hace vulnerable a cualquier interceptación, permitiendo recuperar información sensible, alterar y/o aplicar sentencias dañinas; para mejorar la seguridad de este protocolo, se realizan implementaciones como SSL, acrónimo de #[em Secure Sockets Layer], la cual permite realizar un cifrado a la información transmitida entre dos puntos.
           p.mt-4 Asimismo, se cuenta con TLS, Transport Layer Security, la cual es una mejora al SSL agregando una capa de seguridad al transporte; los certificados web se distribuyen actualmente con tecnología TLS, aunque continúen llamándose SSL.
           p.mt-4 Estas implementaciones se realizan con la inclusión de un certificado digital en la operación del servidor web, como Apache, Ngnix o IIS, por nombrar algunos, habilitando el protocolo HTTPS. #[strong En la siguiente figura, puede observar cómo la implementación de cifrado SSL evita que el contenido que circula a través de la red pueda ser leído por terceros no autorizados:]
           .titulo-sexto.color-acento-contenido.mt-5.ms-2
-            h5 Figura 9.
+            h5 Figura 10.
             span Tráfico HTTP vs. HTTPS
           figure.mt-4
             img(src="@/assets/curso/tema6/23.svg" alt="La imagen presenta una comparación entre el tráfico HTTP y el HTTPS.")
@@ -133,7 +133,7 @@
           p.mt-4 Esta implementación también se realiza incorporando un certificado digital sobre el servicio FTP, como, por ejemplo, Vsftpd, Proftpd o Pure-FTPd.
           p.mt-4 No se debe confundir con SFTP (Protocolo de transferencia de archivos), el cual es un protocolo que permite transferir y manipular archivos a través de cualquier medio. Por lo general, se usa con el protocolo SSH-2. #[strong En la siguiente figura, puede observar algunas de las diferencias en operación de estos protocolos:]
           .titulo-sexto.color-acento-contenido.mt-5.ms-2
-            h5 Figura 10.
+            h5 Figura 11.
             span Diferencias entre FTPS Y SFTP
           figure.mt-4
             img(src="@/assets/curso/tema6/24.svg" alt="La imagen presenta las diferencias en operación de los protocolos FTPS y el SFTP.")
@@ -145,7 +145,7 @@
           p Uno de los controles que no debe faltar en cualquier estrategia de seguridad es el que nos sugiere asegurar los accesos remotos y seguros, en especial, para la administración de dispositivos críticos, así como de consolas y appliances de seguridad; para abordar este control, se sugiere la implementación de acceso seguro a través de SSH (Secure SHell), el cual es un servicio que hace uso de protocolo de cifrado, como RSA y DSA, este establece las conexiones estableciendo canales seguros y cifrados entre los dos puntos de la conexión, resguardando la información que fluye por el medio.
           p.mt-4 En la siguiente figura, se puede identificar cómo, desde el exterior y haciendo uso de una conexión SSH, puede establecer conexión con un host al interior de la red, implementando un canal cifrado a través de la red pública; este servicio puede utilizarse a través de programas para la conexión remota, como Putty, y de transferencia de archivos segura, como WinSCP:
           .titulo-sexto.color-acento-contenido.mt-5.ms-2
-            h5 Figura 11.
+            h5 Figura 12.
             span Funcionamiento de conexión SSH
           figure.mt-4
             img(src="@/assets/curso/tema6/25.png" alt="La imagen presenta cómo se realiza el funcionamiento de conexión SSH desde el host del cliente hasta un host de servicio.")
@@ -158,7 +158,7 @@
           p.mt-4 Este servicio se aprovecha a nivel de aplicación para que los usuarios se autentiquen y hagan uso de servicios, por ejemplo: inicio de sesión, escritorio remoto, carpetas compartidas, DNS, DHCP, autenticación desde otras aplicaciones, entre otros.
           p.mt-4 Al igual que los servicios anteriormente nombrados, para mejorar la seguridad en la transmisión de información, se recomienda la implementación de LDAPS (LDAP Seguro), #[strong esto se puede realizar con implementación de protocolos como SSL y TLS, los cuales requieren un certificado digital, como se puede observar en la siguiente figura:]
           .titulo-sexto.color-acento-contenido.mt-5.ms-2
-            h5 Figura 12.
+            h5 Figura 13.
             span Implementación de protocolo LDAPS
           figure.mt-4
             img(src="@/assets/curso/tema6/26.png" alt="La imagen presenta cómo se realiza la implementación de un protocolo LDAPS.")
@@ -188,7 +188,8 @@
 
     .pt-4.pb-5.cont_6_5.mt-5
       .titulo-sexto.color-acento-contenido.mt-5
-        h5 Fuga de la información
+        h5 Figura 14.
+        span Fuga de la información
       figure.mt-4
         img.d-none.d-lg-block(src="@/assets/curso/tema6/18.svg" data-aos="zoom-in-up")
         img.d-block.d-lg-none(src="@/assets/curso/tema6/19.svg" data-aos="zoom-in-up")
@@ -211,16 +212,16 @@
           ul.lista-ul
             li.mb-1.d-block(data-aos="fade-up")
               i.fas.fa-check-circle(style="color:#40327B;")
-              | Identificar los activos de información que gestiona.
+              span Identificar los activos de información que gestiona.
             li.mb-1.d-block(data-aos="fade-up")
               i.fas.fa-check-circle(style="color:#40327B;")
-              | Clasificar los activos de información de acuerdo con su criticidad e importancia para la organización.
+              span Clasificar los activos de información de acuerdo con su criticidad e importancia para la organización.
             li.mb-1.d-block(data-aos="fade-up")
               i.fas.fa-check-circle(style="color:#40327B;")
-              | Identificar el grado de seguridad actual, es decir, identificar los riesgos a los que está expuesto el activo de información.
+              span Identificar el grado de seguridad actual, es decir, identificar los riesgos a los que está expuesto el activo de información.
             li.mb-1.d-block(data-aos="fade-up")
               i.fas.fa-check-circle(style="color:#40327B;")
-              | Implementar los controles que permitan mejorar la seguridad del activo de información.
+              span Implementar los controles que permitan mejorar la seguridad del activo de información.
 
     p.mt-5(data-aos="fade-up") #[strong A partir de este ejercicio, se pueden establecer los controles necesarios, entre los cuales se pueden encontrar los siguientes tipos:]
 
@@ -231,26 +232,26 @@
           ul.lista-ul.mt-2
             li.mb-1.d-block(data-aos="fade-up")
               i.fas.fa-angle-right(style="color:#583AE2;")
-              | Cifrado de información confidencial corporativa.
+              span Cifrado de información confidencial corporativa.
             li.mb-1.d-block(data-aos="fade-up")
               i.fas.fa-angle-right(style="color:#583AE2;")
-              | Instalación, configuración y actualización de #[em firewall].
+              span Instalación, configuración y actualización de #[em firewall].
             li.mb-1.d-block(data-aos="fade-up")
               i.fas.fa-angle-right(style="color:#583AE2;")
-              | Actualización permanente de aplicaciones.
+              span Actualización permanente de aplicaciones.
 
           p.mt-2 Para grandes organizaciones, se recomienda:
 
           ul.lista-ul.mt-2
             li.mb-1.d-block(data-aos="fade-up")
               i.fas.fa-angle-right(style="color:#583AE2;")
-              | Sistemas de prevención de pérdida de datos o DLP.
+              span Sistemas de prevención de pérdida de datos o DLP.
             li.mb-1.d-block(data-aos="fade-up")
               i.fas.fa-angle-right(style="color:#583AE2;")
-              | Aplicación de controles orientados a la gestión del ciclo de vida de la información o ILM (#[em Information Lifecycle Management]).
+              span Aplicación de controles orientados a la gestión del ciclo de vida de la información o ILM (#[em Information Lifecycle Management]).
             li.mb-1.d-block(data-aos="fade-up")
               i.fas.fa-angle-right(style="color:#583AE2;")
-              | Adopción de herramientas que permitan controlar dispositivos externos de almacenamiento, removibles y en línea, para evitar fugas de información.
+              span Adopción de herramientas que permitan controlar dispositivos externos de almacenamiento, removibles y en línea, para evitar fugas de información.
         .row.ps-4.pe-4(titulo="Organizativas")
           p Estos controles se relacionan con «la forma» en que se maneja o se trata la información, por lo que se recomienda prevenir malas prácticas, como compartir contraseñas o activos confidenciales, o hacer uso de contraseñas que son de conocimiento general. Esto conlleva que se cuente con políticas de seguridad apoyadas en acciones de concienciación a todo el personal.
         .row.ps-4.pe-4(titulo="Jurídicas")

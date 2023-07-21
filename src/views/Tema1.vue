@@ -85,6 +85,10 @@
 
     p.mt-5(data-aos="fade-up") Dentro de los tipos de accesos a los sistemas de información, es necesario considerar los siguientes controles:
 
+    .titulo-sexto.color-acento-contenido.mt-5
+      h5 Figura 2.
+      span Tipos de accesos a los sistemas de información - Controles
+
     figure.mt-5
       img(src="@/assets/curso/tema1/13.svg" data-aos="zoom-in-up" alt="La imagen presenta los tipos de accesos a los sistemas de información, los cuales contienen controles y se clasifican en control para la gestión de usuario y control accesos, el cual a su vez se clasifican en control de accesos a dispositivos, control de acceso a los sistemas de información y activos y control de acceso a recursos de red.")
 

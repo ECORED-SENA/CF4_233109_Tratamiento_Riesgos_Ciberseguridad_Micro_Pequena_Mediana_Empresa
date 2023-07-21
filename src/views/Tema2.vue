@@ -27,7 +27,7 @@
           p.mt-3(data-aos="fade-up") #[strong Tráfico saliente:] permite todo el tráfico saliente y restringe los destinos no deseados o peligrosos.
 
     .titulo-sexto.color-acento-contenido.mt-5
-      h5 Figura 2.
+      h5 Figura 3.
       span Gestión de tráfico entrante por #[em Firewall]
     figure.mt-4
       img.d-none.d-lg-block(src="@/assets/curso/tema2/4.svg" data-aos="zoom-in-up" alt="La imagen presenta la gestión de tráfico entrante por firewall, donde se presenta cómo se actúa ante un usuario autorizado y no autorizado para llegar a los activos de información.")
@@ -147,10 +147,6 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/V-8J5rlLBb4" title="Tipos de soluciones Firewall" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Tipos de soluciones Firewall
-
-
-
-
 
 </template>
 

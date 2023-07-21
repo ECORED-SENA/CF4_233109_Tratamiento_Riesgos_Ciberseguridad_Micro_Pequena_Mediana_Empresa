@@ -24,7 +24,7 @@
         .h-100.p-4.cont_tarjeta_11_1(style="position:relative;background-color:#D5CEF8;border-radius:10px;")
           figure
             img(src="@/assets/curso/tema11/5.png" data-aos="zoom-in-up")
-          p.mt-4(data-aos="fade-up") Fortalecer las habilidades para la gestión de entornos de trabajo seguros, donde sus empleados consigan organizar, en primer lugar. espacios limpios y que no dejen a disposición de terceros información sensible.
+          p.mt-4(data-aos="fade-up") Fortalecer las habilidades para la gestión de entornos de trabajo seguros, donde sus empleados consigan organizar, en primer lugar, espacios limpios y que no dejen a disposición de terceros información sensible.
       .col-lg-6.mb-4.mb-xl-0.col-xl
         .h-100.p-4.cont_tarjeta_11_1(style="position:relative;background-color:#D5CEF8;border-radius:10px;")
           figure
@@ -179,7 +179,7 @@
         .h-100.cont_tarjeta_11_2.p-4(style="background-color:#D5CEF8;border-radius:15px;")
           figure
             img(src="@/assets/curso/tema11/16.svg" data-aos="zoom-in-up" style="max-width:80px;")
-          p.mt-4(data-aos="fade-up") #[strong Ejercicios de demostración] #[br] Conformar ejercicios para que los empleados se enfrenten a situaciones, como, por ejemplo, de ingeniería social, lo cual les permitirá reconocer patrones de comportamiento, así como identificar la ruta de actuación frente a una situación en particular, como se puede apreciar en la figura.
+          p.mt-4(data-aos="fade-up") #[strong Ejercicios de demostración] #[br] Conformar ejercicios para que los empleados se enfrenten a situaciones, como, por ejemplo, de ingeniería social, lo cual les permitirá reconocer patrones de comportamiento, así como identificar la ruta de actuación frente a una situación en particular.
       .col-xl.col-lg-6.mb-xl-0.mb-4
         .h-100.cont_tarjeta_11_2.p-4(style="background-color:#D5CEF8;border-radius:15px;")
           figure

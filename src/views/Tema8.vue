@@ -191,7 +191,7 @@
 
     .col-xl-8.m-auto.mt-5
       .titulo-sexto.color-acento-contenido.mt-5
-        h5 Figura 14.
+        h5 Figura 16.
         span Funciones básicas del #[em Framework] de NIST
       figure.mt-4
         img.d-none.d-lg-block(src="@/assets/curso/tema8/19.svg" data-aos="zoom-in-up" alt="La imagen presenta las funciones básicas del framewok de NIST, las cuales son: identificar, proteger, detectar, responder y recuperar.")
@@ -200,7 +200,7 @@
     p.mt-5(data-aos="fade-up") De igual manera, propone cuatro elementos que enmarcan las actividades y referentes para la aplicación del presente marco, como se puede observar a continuación:
 
     .titulo-sexto.color-acento-contenido.mt-5
-      h5 Figura 15.
+      h5 Figura 17.
       span Elementos que determinan las actividades a realizar
     figure.mt-4
       img.d-none.d-lg-block(src="@/assets/curso/tema8/21.svg" data-aos="zoom-in-up" alt="La imagen presenta los cuatro elementos que determinan las actividades a realizar, las cuales son: las funciones, las categorías, las subcategorías y las referencias informativas.")
@@ -300,7 +300,7 @@
     p.mt-4(data-aos="fade-up") El marco se puede implementar en cualquier organización. A continuación, se revisarán los pasos básicos para su adopción:
 
     .titulo-sexto.color-acento-contenido.mt-5
-      h5 Figura 16.
+      h5 Figura 18.
       span  Pasos para la implementación de CSF en una organización
     figure.mt-4
       img.d-none.d-lg-block(src="@/assets/curso/tema8/23.svg" data-aos="zoom-in-up" alt="La imagen presenta los pasos básicos para la implementación del CSF en una organización: priorizar el alcance, orientar, crear un perfil actual, realizar una evaluación de riesgos, crear un perfil de destino, determinar, analizar y priorizar brechas, e implementar un plan de acción.")
